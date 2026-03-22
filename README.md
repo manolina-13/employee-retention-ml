@@ -106,5 +106,5 @@ This project is distributed under the MIT License. See `LICENSE` for more inform
 
 Manolina Das - [GitHub Profile](https://github.com/manolina-13)
 
-Project Link: [https://github.com/manolina-13/AI-powered--Study-Buddy](https://github.com/manolina-13/AI-powered--Study-Buddy)
+
 
