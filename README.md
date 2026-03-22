@@ -54,10 +54,57 @@ source venv/bin/activate
 # Install dependencies
 pip install -r requirements.txt
 
----
+```
 
 ##  Running the Project
 
 ```bash
 jupyter notebook
+```
+Open:
+```bash
+notebooks/employee_retention_analysis.ipynb
+```
+Run all cells to reproduce the analysis.
+
+
+## Key Insights
+
+- Employees with **low satisfaction levels** are more likely to leave.
+- **Low salary** is strongly associated with higher attrition.
+- Certain **departments show higher turnover trends**.
+- Workload and time spent in the company also influence retention.
+
+## Model Performance
+
+- **Model Used**: Logistic Regression  
+- **Accuracy**: ~79.5%  
+
+The model performs well in predicting employees who stay but has relatively lower recall for employees who leave, indicating scope for improvement.
+
+## Conclusion
+
+In this project, we analyzed employee retention using HR analytics data and identified key factors influencing employee attrition. Exploratory Data Analysis (EDA) revealed that variables such as satisfaction level, salary, and workload have a significant impact on whether employees leave the organization.
+
+A Logistic Regression model was developed to predict employee attrition, achieving an accuracy of approximately 79.5%. While the model performs reasonably well in predicting employees who stay, it shows relatively lower performance in identifying employees who leave, indicating scope for improvement.
+
+Overall, this study demonstrates how data-driven approaches can help organizations understand employee behavior and take proactive measures to improve retention.
+
+
+## Future Improvements
+
+- Use advanced models like Random Forest or XGBoost
+- Handle class imbalance for better prediction
+- Perform hyperparameter tuning
+- Add ROC curve and precision-recall analysis
+
+## License
+
+This project is distributed under the MIT License. See `LICENSE` for more information.
+
+## Contact
+
+Manolina Das - [GitHub Profile](https://github.com/manolina-13)
+
+Project Link: [https://github.com/manolina-13/AI-powered--Study-Buddy](https://github.com/manolina-13/AI-powered--Study-Buddy)
 
